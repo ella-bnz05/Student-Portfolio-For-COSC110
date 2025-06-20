@@ -1,10 +1,10 @@
-# Laboratory Activity 1 
+# Laboratory Activity 2
 Data Cleaning and Analysis using Titanic dataset <br>
 
 *The full code and step-by-step procedures are available in the Jupyter Notebook on this folder.*
 
 ## Objectives:
-1.  Understand and apply fundamental data cleaning techniques using Python and Pandas.
+1. Understand and apply fundamental data cleaning techniques using Python and Pandas.
 2. Learn how to handle missing values, remove duplicates, convert data types, and more.
 3. Use the cleaned dataset for basic data analysis
 
@@ -35,24 +35,11 @@ Using the median for missing ages ensures that the estimated values are more rep
 
 Converting Survived and Pclass into categorical data saves memory and improves processing speed. Checking for duplicate entries and removing is part of cleaning the data and prevents biases in analysis. Standardizing column names helps avoid confusion when analyzing and visualizing data. Lastly, saving the data is necessary for further analysis.
 
-### Question No.2: Determining the blank values in the data using computational thinking.
-After checking for nulls in each column, it was found that:
+### Question No.2: Deriving the data from the two basic data analysis on two columns in the dataset, and give 2 insights about it.
+Passenger Age by Class:
+Visualizations reveal that third-class passengers were mostly younger individuals and families, likely immigrants. Second-class included a mix of young and middle-aged professionals, while first-class passengers were generally older and wealthier, often traveling with family.
 
-**Age** should be filled due to its importance.
+Socioeconomic Impact:
+The age and class distribution highlights the link between social status and financial means. First-class passengers could afford luxury and had better access to lifeboats, increasing survival chances. In contrast, third-class passengers, often lodged in lower decks and sharing accommodations, faced more difficulty escaping, contributing to lower survival rates.
 
-**Embarked** only has two missing entries and can also be filled.
-
-**Cabin** has too many missing values and can be removed unless a general cabin deck can be estimated using class and fare.
-
-### Question No.3: Determining the survival rate of all passengers in the dataset using computational thinking..
-By computing the average of the Survived column (value = 0.38), I deduced that only about 38% of passengers survived, indicating a low survival rate.
-
-### Question No.4: Determining the average age of the survivors and non-survivors in the dataset using computational thinking.
-It is found out that yes, the age does influenced survival:
-
-**Young children (0–4 years)** had a higher survival rate due to prioritization.
-
-**Middle-aged adults (15–40 years)** had lower chances, possibly due to being in social areas or unresponsive.
-
-**Elderly passengers** had low survival due to mobility and lower priority.
-
+*Assisted by ChatGPT.*

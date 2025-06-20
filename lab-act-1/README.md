@@ -47,3 +47,4 @@ It is found out that yes, the age does influenced survival:
 
 **Elderly passengers** had low survival due to mobility and lower priority.
 
+*Assisted by ChatGPT.*
